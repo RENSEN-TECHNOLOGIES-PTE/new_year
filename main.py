@@ -1,5 +1,5 @@
 import streamlit as st
-img = "image/edited_wish2025.gif"
+img = "image/new_year_wishes2025.gif"
 logo ='image/rensenlogo.png'
 
 # Apply global styles
