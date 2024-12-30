@@ -1,6 +1,6 @@
 import streamlit as st
-img = "edited_wish2025.gif"
-logo ='rensenlogo.png'
+img = "image/edited_wish2025.gif"
+logo ='image/rensenlogo.png'
 
 # Apply global styles
 st.set_page_config(
