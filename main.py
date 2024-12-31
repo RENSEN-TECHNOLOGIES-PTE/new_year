@@ -3,13 +3,18 @@ img = "image/new_year_wishes2025.gif"
 logo ='image/rensenlogo.png'
 
 # Apply global styles
-st.set_page_config(
-    page_title="Styled Page", 
-    layout="centered",  # 'centered' or 'wide'
-    initial_sidebar_state="collapsed"  # 'expanded' or 'collapsed'
+# st.set_page_config(
+#     page_title="Styled Page", 
+#     layout="centered",  # 'centered' or 'wide'
+#     initial_sidebar_state="collapsed"  # 'expanded' or 'collapsed'
     
+# )
+st.set_page_config(
+    page_title="New Year Wishes",  # Title of the app
+    page_icon="🎉",  # Icon that appears in the browser tab
+    layout="centered",  # You can choose "centered" or "wide" layout
+    initial_sidebar_state="collapsed",  # Sidebar can be expanded or collapsed initially
 )
-
 with st.container():
 
     st.image(logo , width=300)
